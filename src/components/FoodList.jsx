@@ -1,9 +1,10 @@
 import PropTypes from "prop-types";
-function FoodList({ foodData }) {
+import FoodItem from "./FoodItem";
+function FoodList({ foodData, setFoodId }) {
   return (
     <div>
       {foodData.map((food) => (
-        <h1 key={food.id}>{food.title}</h1>
+        <FoodItem food={food} key={food.id} setFoodId={setFoodId} />
       ))}
     </div>
   );

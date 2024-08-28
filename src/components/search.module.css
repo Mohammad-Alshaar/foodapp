@@ -1,0 +1,15 @@
+.searchContainer {
+  width: 300px;
+  margin: 20px auto;
+  position: relative;
+}
+.search {
+  border: none;
+  border-bottom: 1px solid rgb(172, 168, 168);
+  color: white;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  outline: none;
+  background-color: transparent;
+}
